@@ -18,27 +18,8 @@
        
         margin-bottom: 100px;
     }
-    .banner-container {
-        flex-direction: column;
-    }
-    .banner-content {
-        width: 100%;
     
-    }
-    .banner-content h2 {
-        padding-top: 20px;
-        font-size: 32px;
-
-    }
-    .banner-image{
-        width: 100%;
-    
-    }
-    .banner-image img{
-        width: 100%;
-    }
 }
-
 @media screen and (max-width: 960px) {
     nav {
         box-shadow: none;

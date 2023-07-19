@@ -168,7 +168,7 @@ nav {
 
 }
 
-/* ------------------- */
+/* funny video section starts here */
 
 .funny-videos {
     width: 100%;
@@ -218,7 +218,7 @@ nav {
     height: auto;
 }
 
-/* ------------------- */
+/* play instantly section start here */
 
 .play-instantly-section {
     display: flex;
@@ -272,7 +272,7 @@ nav {
     padding-left: 200px;
     padding-right: 200px;
 }
-
+/* icon area starts */
 .icon-area {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -302,7 +302,7 @@ nav {
     padding: 5px;
     color: #FF42A5;
 }
-
+/* footer styles starts */
 .footer-section {
     text-align: center;
     margin: auto;
