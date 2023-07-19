@@ -251,3 +251,35 @@ font-weight: 700;
     bottom: 150px;
     left: -50px;
 }
+.icon-area-section{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.icon-area{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    text-align: center;
+   
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    place-items: center;
+    margin-bottom: 50px;
+}
+
+.icon-style{
+    display: flex;
+    gap: 5px;
+}
+.icon-style img{
+    width: 30%;
+    height: 30%;
+}
+.icon-style:hover{
+    border: 1px solid red;
+    border-radius: 25%;
+    padding: 10px;
+    color: #FF42A5;
+}
