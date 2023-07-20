@@ -1,13 +1,13 @@
 @media screen and (max-width: 576px) {
-   body{
-    width: 100%;
-   }
+    body {
+        width: 100%;
+    }
+
     nav {
         box-shadow: none;
     }
 
-    .nav-container
-     {
+    .nav-container {
         flex-direction: column;
         margin-top: 150px;
 
@@ -21,73 +21,88 @@
 
         margin-bottom: 100px;
     }
-    .banner-container{
+
+    .banner-container {
         grid-template-columns: 1fr;
         background-image: none;
     }
+
     .banner-content {
         width: 100%;
         background-image: none;
-    max-width: 500px;
-    height: auto;
-    box-sizing: border-box;
-    
+        max-width: 500px;
+        height: auto;
+        box-sizing: border-box;
+
     }
-    .banner-image{
+
+    .banner-image {
         width: 100%;
         height: 100%;
     }
-    .funny-videos{
-text-align: center;
+
+    .funny-videos {
+        text-align: center;
     }
+
     .funny-videos-heading {
         font-size: 32px;
         text-align: center;
 
-      }
+    }
+
     .funny-videos-heading span {
         font-size: 32px;
-      }
-      
-      .funny-videos-description {
+    }
+
+    .funny-videos-description {
         font-size: 14px;
         text-align: center;
 
-      }
-      .funny-video-collection {
+    }
+
+    .funny-video-collection {
         grid-template-columns: 1fr;
         text-align: center;
         gap: 5px;
-    
+
     }
-    .play-instantly-img-2{
+
+    .play-instantly-img-2 {
         bottom: 100px;
     }
+
     .play-instantly-section {
         flex-direction: column;
     }
+
     .play-instantly-content {
         text-align: center;
         margin-right: 50px;
         width: 100%;
     }
-    .play-instantly-img {
-    }
+
+    .play-instantly-img {}
+
     .icon-area-section {
-        padding:0%;
+        padding: 0%;
     }
+
     .icon-area {
         grid-template-columns: repeat(3, 1fr);
-        
+
     }
-    .footer-section{
+
+    .footer-section {
         width: 100%;
     }
-    .footer-link-one{
+
+    .footer-link-one {
         flex-wrap: wrap;
         width: 100%;
     }
-    .footer-link-two{
+
+    .footer-link-two {
         flex-wrap: wrap;
         width: 100%;
 
@@ -107,78 +122,62 @@ text-align: center;
         margin-bottom: 100px;
 
     }
-    .banner-container{
+    .play-instantly-section{
+        flex-direction: column;
+    }
+
+    .banner-container {
         grid-template-columns: 1fr;
         background-image: none;
     }
+
     .banner-content {
         width: 100%;
         background-image: none;
-    max-width: 500px;
-    height: auto;
-    box-sizing: border-box;
-    
+        max-width: 500px;
+        height: auto;
+        box-sizing: border-box;
+
     }
-    .banner-image{
+
+    .banner-image {
         width: 100%;
         height: 100%;
     }
-    .funny-videos{
-text-align: center;
+
+    .funny-videos {
+        text-align: center;
     }
+
     .funny-videos-heading {
         font-size: 32px;
         text-align: center;
 
-      }
+    }
+
     .funny-videos-heading span {
         font-size: 32px;
-      }
-      
-      .funny-videos-description {
+    }
+
+    .funny-videos-description {
         font-size: 14px;
         text-align: center;
 
-      }
-      .funny-video-collection {
-        grid-template-columns: 1fr;
-        text-align: center;
-        gap: 5px;
-    
     }
-    .play-instantly-img-2{
-        bottom: 100px;
-    }
-    .play-instantly-section {
+
+    .funny-video {
         flex-direction: column;
+    }
+
+  
+
+    .image-container img {
+        width: 100%;
     }
     .play-instantly-content {
         text-align: center;
         width: 100%;
     }
-    .play-instantly-img {
-        width: 100%;
-        margin-left: 100px;
-    }
-    .icon-area-section {
-        padding:0%;
-        width: 100%;
-    }
-    .icon-area {
-        grid-template-columns: repeat(3, 1fr);
-        
-    }
-    .footer-section{
-        width: 100%;
-    }
-    .footer-link-one{
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    .footer-link-two{
-        flex-wrap: wrap;
-        width: 100%;
-
-    }
 
 }
+
